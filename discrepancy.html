@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Pages with External Content</title>
+</head>
+<body>
+    <div id="external-content"></div>
+    
+    <script>
+        // Use JavaScript to load the external content into the placeholder
+        var externalContentContainer = document.getElementById('external-content');
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://script.google.com/macros/s/AKfycbxnJfopMSEkbwT6JgvT3aSXD25i2BHkQEzoknMftX5l1H7idjRgDUE5xwyJi6FABFAw/exec';
+        iframe.width = '100%';
+        iframe.height = '600';
+        iframe.frameBorder = '0';
+        externalContentContainer.appendChild(iframe);
+    </script>
+</body>
+</html>
